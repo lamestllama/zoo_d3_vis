@@ -4,7 +4,7 @@
     <style type="text/css">
 
       #states path {
-        fill: #ccc;
+        fill: #fff;
         stroke: #fff;
       }
 
@@ -21,7 +21,7 @@
       }
 
       circle {
-        fill: #333;
+        fill: #777;
       }
 
     </style>
@@ -218,7 +218,7 @@ d3.json("files/nren.json", function(network) {
     .on("mouseout", function() {
         clear_label();
         d3.select(this).attr("r", "3");
-        d3.select(this).style("fill", "#333");
+        d3.select(this).style("fill", "#777");
         })
     ;
 
